@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Vidéo</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Contact</legend>
+
+                <label for="nom">Nom :</label>
+                <input type="text" name="nom" id="nom" placeholder="Nom" required>
+                <br>
+
+                <label for="mail">Email :</label>
+                <input type="email" name="mail" id="mail" placeholder="Email" required>
+
+                <fieldset>
+                    <legend>Votre genre :</legend>
+
+                    <input type="radio" name="genre" id="femme">
+                    <label for="femme">Femme</label>
+
+                    <input type="radio" name="genre" id="homme" checked>
+                    <label for="homme">Homme</label>
+                </fieldset>
+
+                <label for="newsletter">Recevoir la Newsletter</label>
+                <input type="checkbox" name="newsletter" id="newsletter">
+            </fieldset>
+
+            <button type="submit">Envoyez</button>
+        </form>
+    </main>
+
+    <footer>
+        <a href="mentionsLegales.html">Mentions légales</a>
+        <address>
+            <a href="mailto:jesaispas@frero.fr">jesaispas@frero.fr</a>
+            <br>
+            <a href="tel:0606060606">06 06 06 06 06</a>
+        </address>
+    </footer>
+</body>
+</html>
