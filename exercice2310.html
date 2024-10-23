@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice</title>
+</head>
+<body>
+    <header>
+        <img src="assets/img/logoCCICher.png" alt="Logo CCI du Cher">
+        <nav id="accueil">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#aPropos">A propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Exercice</h1>
+        <h2 id="aPropos">A propos</h2>
+
+        <table class="tableau">
+            <colgroup>
+                <col span="1" style="width:150px;">
+                <col span="2">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Nom du Membre</th>
+                    <th>Poste occupé</th>
+                    <th>Date d'embauche</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Romain</td>
+                    <td>Directeur</td>
+                    <td>15/01/2024</td>
+                </tr>
+                <tr>
+                    <td>Hugo</td>
+                    <td>Assistant</td>
+                    <td>02/07/2024</td>
+                </tr>
+                <tr>
+                    <td>Imran</td>
+                    <td>Agent d'entretien</td>
+                    <td>28/09/2024</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <figure class="bureaux">
+            <img src="assets/img/bureaux.jfif" alt="Photo de bureaux">
+            <figcaption>Images des bureaux</figcaption>
+        </figure>
+
+        <img src="assets/img/plan.png" alt="Plan de Bourges" usemap="#planMap" class="plan">
+        <map name="planMap">
+            <area shape="rect" coords="0,0,100,100" href="https://www.google.fr/maps/preview" alt="CCI">
+            <area shape="rect" coords="200,200,300,300" href="https://tickets.formula1.com/fr" alt="je sais pas">
+        </map>
+
+        <h2 id="contact">Contact</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <fieldset class="formulaire">
+                <legend>Nous contacter :</legend>
+                <label for="nom">Nom :</label>
+                <input type="text" name="nom" id="nom" placeholder="Nom" required>
+                <label for="prenom">Prénom :</label>
+                <input type="text" name="prenom" id="prenom" placeholder="Prénom" required>
+                <label for="mail">Email :</label>
+                <input type="email" name="mail" id="mail" placeholder="Email" required>
+                <label for="message">Votre message :</label>
+                <textarea name="message" id="message" placeholder="Votre message"></textarea>
+            </fieldset>
+            <button type="submit" name="submit" class="boutton">Envoyer</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="liens">
+            <a href="mentionsLegales.html" title="Mentions legales">Mentions legales</a>
+            <a href="https://www.facebook.com/" title="Facebook"><img src="assets/img/facebook.png" width="50" height="50" alt="Logo Facebook"></a>
+            <a href="https://www.instagram.com/" title="Instagram"><img src="assets/img/instagram.jfif" width="50" height="50" alt="Logo Instagram"></a>
+        </div>
+        <div>
+            <address class="adresse">
+                <p>14 Allée Charles Pathé</p>
+                <p>18000 Bourges</p>
+                <p><a href="tel:0606060606">06 06 06 06 06</a></p>
+                <p><a href="mailto:unmail@auhasard.fr">unmail@auhasard.fr</a></p>
+            </address>
+        </div>
+    </footer>
+</body>
+</html>
